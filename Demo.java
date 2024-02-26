@@ -137,7 +137,10 @@ class Computer {
     }
 
     public String getMeAPen(int cost) {
-        return "Pen";
+        if (cost >= 10)
+            return "Pen";
+        else
+            return "Nothing";
     }
 
 }
@@ -146,5 +149,7 @@ public class Demo {
     public static void main(String[] args) {
         Computer obj = new Computer();
         obj.playMusic();
+        String str = obj.getMeAPen(2);
+        System.out.println(str);
     }
 }
