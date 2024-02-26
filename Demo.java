@@ -176,7 +176,7 @@ public class Demo {
     }
 }*/
 
-class Calculator {
+/*class Calculator {
     int num = 5;
 
     public int add(int n1, int n2) {
@@ -192,5 +192,19 @@ public class Demo {
         Calculator obj = new Calculator();
         int r1 = obj.add(3, 5);
         System.out.println(r1);
+    }
+}*/
+
+public class Demo {
+    public static void main(String[] args) {
+        int nums[] = new int[4];
+        nums[0] = 2;
+        nums[1] = 1;
+        nums[2] = 4;
+        nums[3] = 5;
+        for (int i = 0; i < 4; i++) {
+
+            System.out.println(nums[i]);
+        }
     }
 }
