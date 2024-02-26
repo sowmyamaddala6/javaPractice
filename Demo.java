@@ -97,7 +97,7 @@
  * }
  */
 
-public class Demo {
+/*public class Demo {
     public static void main(String[] args) {
         {
             for (int i = 1; i <= 5; i++)
@@ -109,9 +109,9 @@ public class Demo {
         }
 
     }
-}
+}*/
 
-class Calculator {
+/*class Calculator {
     int a;
 
     public int add(int n1, int n2) {
@@ -127,5 +127,24 @@ public class Demo {
         Calculator calc = new Calculator();
         int result = calc.add(num1, num2);
         System.out.println(result);
+    }
+}*/
+
+class Computer {
+    public void playMusic() {
+        System.out.println("Music Playing..");
+
+    }
+
+    public String getMeAPen(int cost) {
+        return "Pen";
+    }
+
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Computer obj = new Computer();
+        obj.playMusic();
     }
 }
