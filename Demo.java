@@ -97,39 +97,35 @@
  * }
  */
 
-/*
- * public class Demo {
- * public static void main(String[] args) {
- * {
- * for (int i = 1; i <= 5; i++)
- * System.out.println("DAY" + i);
- * 
- * for (int j = 1; j <= 9; j++) {
- * System.out.println("    " + (j + 8) + " -" + (j + 9));
- * }
- * }
- * 
- * }
- * }
- */
+public class Demo {
+    public static void main(String[] args) {
+        {
+            for (int i = 1; i <= 5; i++)
+                System.out.println("DAY" + i);
 
-/*
- * class Calculator {
- * int a;
- * 
- * public int add(int n1, int n2) {
- * return n1 + n2;
- * 
- * }
- * }
- * 
- * public class Demo {
- * public static void main(String[] args) {
- * int num1 = 3;
- * int num2 = 5;
- * Calculator calc = new Calculator();
- * int result = calc.add(num1, num2);
- * System.out.println(result);
- * }
- * }
- */
+            for (int j = 1; j <= 9; j++) {
+                System.out.println("    " + (j + 8) + " -" + (j + 9));
+            }
+        }
+
+    }
+}
+
+class Calculator {
+    int a;
+
+    public int add(int n1, int n2) {
+        return n1 + n2;
+
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        int num1 = 3;
+        int num2 = 5;
+        Calculator calc = new Calculator();
+        int result = calc.add(num1, num2);
+        System.out.println(result);
+    }
+}
